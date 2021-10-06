@@ -109,6 +109,8 @@ def test_get_base_2():
 
 def test_get_base_16_from_2():
     assert get_base_16_from_2(100001101100) == '86C'
+    assert get_base_16_from_2(10100) == '14'
+    assert get_base_16_from_2(1100100) == '64'
 
 def main():
     while True:
